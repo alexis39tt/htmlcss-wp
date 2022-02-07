@@ -42,6 +42,11 @@ nav li {
     margin-right: 10px;
 }
 
+nav li:hover {
+    border-bottom: 3px solid black;
+    transition: 0.2s;
+}
+
 .top-container {
     margin-top: 30px;
     height: 450px;
@@ -79,12 +84,12 @@ nav li {
     height: 630px;
 }
 
-.section-paragraph{
+.section-paragraph {
     margin-top: 5px;
     color: #a0a0a0;
 }
 
-.section-name{
+.section-name {
     margin-top: 15px;
 }
 
@@ -116,11 +121,13 @@ nav li {
     overflow: hidden;
     background-color: white;
     border-radius: 10px;
+    cursor: pointer;
 }
 
 .img1 {
     background-image: url('../img/img-1.jpg');
     background-size: 80%;
+    z-index: 3;
 }
 
 .img2 {
@@ -131,6 +138,19 @@ nav li {
 .img3 {
     background-image: url('../img/img-3.jpg');
     background-size: 130%
+}
+
+.img1:hover{
+    background-image: url('../img/img-6.jpg');
+}
+
+.img2:hover{
+    background-image: url('../img/img-4.jpg');
+    background-position: 50px -70px;
+}
+
+.img3:hover{
+    background-image: url('../img/img-5.jpg');
 }
 
 .left-column {
@@ -161,11 +181,11 @@ footer {
     height: 40px;
 }
 
-footer p{
+footer p {
     text-align: center;
 }
 
-footer span{
+footer span {
     color: red;
     font-size: 1.5rem;
     vertical-align: -3px;
