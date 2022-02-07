@@ -19,7 +19,8 @@ body{
 }
 
 .header img{
-    width: 100px;}
+    width: 120px;
+}
 
 nav{
     margin-top: 20px;
@@ -50,11 +51,25 @@ nav li{
     background-position: center;
 }
 
-.top-container img{
-    width: 100%;
-    display: block;
-    margin: auto;
+.top-container p{
+    position: relative;
+    color: white;
+    max-width: 53%;
+    padding-left: 40px;
+    top: 205px;
+}
 
+.title{
+    font-size: 1.5rem;
+}
+.paragraph{
+    font-size: 0.8rem;
+}
+
+.overlay{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.2);
 }
 
 .bottom-container{
