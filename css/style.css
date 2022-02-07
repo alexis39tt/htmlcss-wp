@@ -79,13 +79,18 @@ nav li {
     height: 630px;
 }
 
-.bottom-container p{
+.section-paragraph{
+    margin-top: 5px;
+    color: #a0a0a0;
+}
+
+.section-name{
     margin-top: 15px;
 }
 
 .top-content p {
     color: #a0a0a0;
-    font-size: 0.8rem;
+    font-size: 1rem;
 }
 
 .bottom-container::after {
